@@ -28,7 +28,7 @@ const ShiftWrapUp = () => {
         {/* Header */}
         <div className="text-center space-y-2">
           <h1 className="text-2xl font-bold text-foreground">
-            Great Work Today!
+            Great work today!
           </h1>
           <p className="text-lg text-muted-foreground">
             Here's what you practiced:
@@ -68,7 +68,7 @@ const ShiftWrapUp = () => {
         {/* Next Shift Preview */}
         <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-xl p-6 space-y-3">
           <h2 className="text-lg font-semibold text-foreground">
-            For Your Next Shift:
+            For your next shift:
           </h2>
           <p className="text-base leading-relaxed text-foreground/90">
             Look for one moment to give clear, specific positive feedback to a team member. Notice how it affects their confidence and the shift energy.
