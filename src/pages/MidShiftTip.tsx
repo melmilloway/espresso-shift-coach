@@ -46,6 +46,15 @@ const MidShiftTip = () => {
               Your tone kept everyone relaxed."
             </p>
           </div>
+
+          <div className="bg-muted/50 rounded-lg p-4 border-l-4 border-primary">
+            <p className="text-sm font-medium text-muted-foreground mb-2">
+              Why this matters:
+            </p>
+            <p className="text-sm leading-relaxed text-foreground/80">
+              Clear positive feedback helps baristas repeat what works. It builds confidence and keeps the shift running smoothly.
+            </p>
+          </div>
         </div>
 
         {/* CTA Button */}
