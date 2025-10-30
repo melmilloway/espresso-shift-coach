@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Launch from "./pages/Launch";
 import Scenario from "./pages/Scenario";
 import Feedback from "./pages/Feedback";
-import EndShiftReflection from "./pages/EndShiftReflection";
+import MidShiftTip from "./pages/MidShiftTip";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,7 +21,7 @@ const App = () => (
           <Route path="/" element={<Launch />} />
           <Route path="/scenario" element={<Scenario />} />
           <Route path="/feedback" element={<Feedback />} />
-          <Route path="/endshift-reflection" element={<EndShiftReflection />} />
+          <Route path="/midshift-tip" element={<MidShiftTip />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

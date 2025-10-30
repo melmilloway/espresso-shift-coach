@@ -88,7 +88,7 @@ const Feedback = () => {
             Retry Scenario
           </Button>
           <Button
-            onClick={() => navigate("/endshift-reflection")}
+            onClick={() => navigate("/midshift-tip")}
             size="lg"
             className="flex-1 bg-primary hover:bg-secondary text-primary-foreground font-semibold py-6 rounded-xl shadow-soft hover:shadow-medium transition-all"
           >
