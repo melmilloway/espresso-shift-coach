@@ -75,16 +75,6 @@ const ShiftWrapUp = () => {
           </p>
         </div>
 
-        {/* Positive Message */}
-        <div className="text-center py-4">
-          <p className="text-xl font-semibold text-primary mb-2">
-            You've got this! ☕
-          </p>
-          <p className="text-base text-muted-foreground">
-            See you next shift
-          </p>
-        </div>
-
         {/* CTA Button */}
         <Button
           onClick={handleBackToHome}
