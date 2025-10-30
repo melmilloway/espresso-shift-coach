@@ -7,6 +7,7 @@ import Launch from "./pages/Launch";
 import Scenario from "./pages/Scenario";
 import Feedback from "./pages/Feedback";
 import MidShiftTip from "./pages/MidShiftTip";
+import ShiftWrapUp from "./pages/ShiftWrapUp";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/scenario" element={<Scenario />} />
           <Route path="/feedback" element={<Feedback />} />
           <Route path="/midshift-tip" element={<MidShiftTip />} />
+          <Route path="/shift-wrapup" element={<ShiftWrapUp />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
