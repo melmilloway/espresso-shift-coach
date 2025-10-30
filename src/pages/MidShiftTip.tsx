@@ -47,11 +47,11 @@ const MidShiftTip = () => {
             </p>
           </div>
 
-          <div className="bg-muted/50 rounded-lg p-4 border-l-4 border-primary">
-            <p className="text-sm font-medium text-muted-foreground mb-2">
+          <div className="space-y-3">
+            <h2 className="text-xl font-semibold text-foreground">
               Why this matters:
-            </p>
-            <p className="text-sm leading-relaxed text-foreground/80">
+            </h2>
+            <p className="text-base leading-relaxed text-foreground/90">
               Clear positive feedback helps baristas repeat what works. It builds confidence and keeps the shift running smoothly.
             </p>
           </div>
