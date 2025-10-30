@@ -2,9 +2,18 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import AppLayout from "@/components/AppLayout";
 import { CheckCircle2 } from "lucide-react";
+import { toast } from "sonner";
 
 const ShiftWrapUp = () => {
   const navigate = useNavigate();
+
+  const handleBackToHome = () => {
+    toast.success("You've got this! ☕", {
+      description: "See you next shift",
+      duration: 3000,
+    });
+    setTimeout(() => navigate("/"), 500);
+  };
 
   return (
     <AppLayout showBack={false}>
@@ -78,7 +87,7 @@ const ShiftWrapUp = () => {
 
         {/* CTA Button */}
         <Button
-          onClick={() => navigate("/")}
+          onClick={handleBackToHome}
           size="lg"
           className="w-full bg-primary hover:bg-secondary text-primary-foreground font-semibold text-lg py-6 rounded-xl shadow-soft hover:shadow-medium transition-all"
         >
