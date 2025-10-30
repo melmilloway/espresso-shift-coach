@@ -81,7 +81,7 @@ const ShiftWrapUp = () => {
           size="lg"
           className="w-full bg-primary hover:bg-secondary text-primary-foreground font-semibold text-lg py-6 rounded-xl shadow-soft hover:shadow-medium transition-all"
         >
-          Back to Home
+          Home
         </Button>
       </div>
     </AppLayout>
