@@ -45,10 +45,10 @@ const Feedback = () => {
         {/* Header */}
         <div className="space-y-2">
           <h1 className="text-2xl font-bold text-foreground">
-            How That Played Out
+            How that played out
           </h1>
           <p className="text-lg font-medium text-muted-foreground">
-            Your Choice: {content.choice}
+            Your choice: {content.choice}
           </p>
         </div>
 
@@ -85,7 +85,7 @@ const Feedback = () => {
             size="lg"
             className="flex-1 border-2 border-primary text-foreground font-semibold py-6 rounded-xl hover:bg-accent transition-all"
           >
-            Retry Scenario
+            Retry scenario
           </Button>
           <Button
             onClick={() => navigate("/midshift-tip")}

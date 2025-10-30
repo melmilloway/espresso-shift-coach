@@ -39,7 +39,7 @@ const Scenario = () => {
         {/* Header */}
         <div className="space-y-2">
           <h1 className="text-2xl font-bold text-foreground">
-            Scenario: The Morning Rush
+            Scenario: The morning rush
           </h1>
           <p className="text-lg text-muted-foreground">
             A new barista is juggling drinks when a cat jumps on the counter.
@@ -90,7 +90,7 @@ const Scenario = () => {
           size="lg"
           className="w-full bg-primary hover:bg-secondary text-primary-foreground font-semibold text-lg py-6 rounded-xl shadow-soft hover:shadow-medium transition-all disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          Submit Choice
+          Submit choice
         </Button>
       </div>
     </AppLayout>
