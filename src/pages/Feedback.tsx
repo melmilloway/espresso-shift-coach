@@ -12,25 +12,25 @@ const Feedback = () => {
     switch (choiceId) {
       case 1:
         return {
-          choice: "🐾 Step in calmly and coach in the moment.",
+          choice: "Step in calmly and coach in the moment.",
           feedback: "Redirecting in the moment helps everyone stay calm. Customers see leadership in action, and the barista learns by example. Waiting too long can make small moments snowball.",
           takeaway: "Calm correction in real time teaches confidence and protects the vibe.",
         };
       case 2:
         return {
-          choice: "🕓 Pause and coach privately after.",
+          choice: "Pause and coach privately after.",
           feedback: "Taking a moment to pause shows thoughtfulness, but in fast-moving situations, immediate guidance can prevent escalation. The barista might feel uncertain in the moment without your support.",
           takeaway: "Balance timing—some moments need immediate action, others can wait for a private conversation.",
         };
       case 3:
         return {
-          choice: "☕ Take over and explain later.",
+          choice: "Take over and explain later.",
           feedback: "Stepping in keeps service flowing, but the barista misses the learning opportunity. They may not connect the lesson to the real situation later on.",
           takeaway: "When possible, coach in the moment to make learning stick. Taking over should be a last resort.",
         };
       default:
         return {
-          choice: "🐾 Step in calmly and coach in the moment.",
+          choice: "Step in calmly and coach in the moment.",
           feedback: "Redirecting in the moment helps everyone stay calm.",
           takeaway: "Calm correction in real time teaches confidence.",
         };

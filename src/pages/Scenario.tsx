@@ -8,17 +8,14 @@ import scenarioImage from "@/assets/scenario-morning-rush.jpg";
 const choices = [
   {
     id: 1,
-    emoji: "🐾",
     text: "Step in calmly to guide the cat off the counter and coach the barista through what to do next.",
   },
   {
     id: 2,
-    emoji: "🕓",
     text: "Pause the guest interaction to steady the moment, then coach the barista privately right after the situation so they can absorb it without an audience.",
   },
   {
     id: 3,
-    emoji: "☕",
     text: "Take over the task yourself to keep service moving, then plan to explain the standard later when the floor is quiet and the barista can focus.",
   },
 ];
@@ -73,12 +70,9 @@ const Scenario = () => {
                   : "bg-card hover:bg-muted border border-border shadow-soft"
               }`}
             >
-              <div className="flex gap-3">
-                <span className="text-2xl flex-shrink-0">{choice.emoji}</span>
-                <p className="text-sm leading-relaxed text-foreground">
-                  {choice.text}
-                </p>
-              </div>
+              <p className="text-sm leading-relaxed text-foreground">
+                {choice.text}
+              </p>
             </Card>
           ))}
         </div>

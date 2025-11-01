@@ -9,13 +9,10 @@ const MidShiftTip = () => {
   return (
     <AppLayout showBack>
       <div className="space-y-6 animate-slide-up">
-        {/* Header with Badge */}
-        <div className="flex items-center gap-2">
-          <span className="text-2xl">☕</span>
-          <h1 className="text-2xl font-bold text-foreground">
-            Mid-Shift Tip
-          </h1>
-        </div>
+        {/* Header */}
+        <h1 className="text-2xl font-bold text-foreground">
+          Mid-Shift Tip
+        </h1>
 
         {/* Image */}
         <div className="rounded-xl overflow-hidden shadow-medium">
