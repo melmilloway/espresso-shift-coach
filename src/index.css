@@ -13,6 +13,7 @@ All colors MUST be HSL.
     --latte-cream: 39 43% 98%;         /* Latte Cream #FAF8F5 */
     --roast-beige: 33 49% 70%;         /* Light Roast Beige #DCB48C */
     --espresso-shadow: 33 41% 61%;     /* Espresso Shadow #C7A075 */
+    --toast-bg: 45 17% 91%;            /* Toast Background #ECEAE4 */
     
     --background: var(--latte-cream);
     --foreground: var(--coffee-brown);
@@ -97,5 +98,10 @@ All colors MUST be HSL.
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  /* Toast Styling */
+  [data-sonner-toast] {
+    background-color: hsl(var(--toast-bg)) !important;
   }
 }
