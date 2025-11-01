@@ -7,7 +7,7 @@ const MidShiftTip = () => {
   const navigate = useNavigate();
 
   return (
-    <AppLayout showBack>
+    <AppLayout showBack currentStep={4} totalSteps={5}>
       <div className="space-y-6 animate-slide-up">
         {/* Header */}
         <h1 className="text-2xl font-bold text-foreground">

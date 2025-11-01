@@ -31,7 +31,7 @@ const Scenario = () => {
   };
 
   return (
-    <AppLayout showBack showTimer>
+    <AppLayout showBack showTimer currentStep={2} totalSteps={5}>
       <div className="space-y-6 animate-slide-up">
         {/* Header */}
         <div className="space-y-2">

@@ -40,7 +40,7 @@ const Feedback = () => {
   const content = getFeedbackContent();
 
   return (
-    <AppLayout showBack>
+    <AppLayout showBack currentStep={3} totalSteps={5}>
       <div className="space-y-6 animate-slide-up">
         {/* Header */}
         <div className="space-y-2">

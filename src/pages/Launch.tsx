@@ -7,7 +7,7 @@ const Launch = () => {
   const navigate = useNavigate();
 
   return (
-    <AppLayout showTimer timerText="5 min">
+    <AppLayout showTimer timerText="5 min" currentStep={1} totalSteps={5}>
       <div className="space-y-6 animate-slide-up">
         {/* Hero Image */}
         <div className="rounded-xl overflow-hidden shadow-medium">
