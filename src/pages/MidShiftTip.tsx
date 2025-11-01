@@ -30,7 +30,7 @@ const MidShiftTip = () => {
               Daily tip
             </h2>
             <p className="text-base leading-relaxed text-foreground/90">
-              Try this today: When you notice a barista doing something right, tell them why it worked.
+              <span className="font-semibold">Try this today:</span> When you notice a barista doing something right, tell them why it worked.
             </p>
           </div>
 
