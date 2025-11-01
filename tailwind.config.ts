@@ -50,9 +50,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        info: {
+          DEFAULT: "hsl(var(--info))",
+          foreground: "hsl(var(--info-foreground))",
+        },
         coffee: {
           brown: "hsl(var(--coffee-brown))",
           cream: "hsl(var(--latte-cream))",
+          gold: "hsl(var(--whisker-gold))",
           beige: "hsl(var(--roast-beige))",
           shadow: "hsl(var(--espresso-shadow))",
         },

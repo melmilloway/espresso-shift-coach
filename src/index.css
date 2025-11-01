@@ -9,11 +9,17 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* WhiskerBeans Brand Colors */
-    --coffee-brown: 30 23% 25%;        /* Deep Coffee Brown #4B3B2F */
+    --coffee-brown: 30 23% 25%;        /* Coffee Brown #4B3B2F */
     --latte-cream: 39 43% 98%;         /* Latte Cream #FAF8F5 */
-    --roast-beige: 33 49% 70%;         /* Light Roast Beige #DCB48C */
+    --whisker-gold: 43 100% 48%;       /* Whisker Gold #F6B400 */
+    --roast-beige: 33 49% 70%;         /* Roast Beige #DCB48C */
     --espresso-shadow: 33 41% 61%;     /* Espresso Shadow #C7A075 */
+    --muted-beige: 33 20% 90%;         /* Light beige-gray #E8E3DC */
+    --muted-brown: 30 15% 45%;         /* Medium brown-gray #766B5D */
     --toast-bg: 45 17% 91%;            /* Toast Background #ECEAE4 */
+    --success-sage: 108 29% 61%;       /* Sage Green #89B87F */
+    --info-blue: 201 42% 68%;          /* Soft Blue #87B7D1 */
+    --error-red: 0 76% 64%;            /* Error Red #E85D5D */
     
     --background: var(--latte-cream);
     --foreground: var(--coffee-brown);
@@ -24,24 +30,30 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: var(--coffee-brown);
 
-    --primary: var(--roast-beige);
+    --primary: var(--whisker-gold);
     --primary-foreground: var(--coffee-brown);
 
     --secondary: var(--espresso-shadow);
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 33 20% 90%;
-    --muted-foreground: 30 15% 45%;
+    --muted: var(--muted-beige);
+    --muted-foreground: var(--muted-brown);
 
     --accent: var(--roast-beige);
     --accent-foreground: var(--coffee-brown);
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: var(--error-red);
     --destructive-foreground: 0 0% 100%;
+    
+    --success: var(--success-sage);
+    --success-foreground: var(--coffee-brown);
+    
+    --info: var(--info-blue);
+    --info-foreground: var(--coffee-brown);
 
-    --border: 33 20% 88%;
-    --input: 33 20% 88%;
-    --ring: var(--roast-beige);
+    --border: var(--muted-beige);
+    --input: var(--muted-beige);
+    --ring: var(--whisker-gold);
 
     --radius: 0.75rem;
 
