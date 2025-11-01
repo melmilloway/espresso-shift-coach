@@ -11,7 +11,7 @@ const MidShiftTip = () => {
       <div className="space-y-6 animate-slide-up">
         {/* Header */}
         <h1 className="text-2xl font-bold text-foreground">
-          Mid-Shift Tip
+          Start of shift tip
         </h1>
 
         {/* Image */}
@@ -27,7 +27,7 @@ const MidShiftTip = () => {
         <div className="space-y-4">
           <div className="space-y-3">
             <h2 className="text-xl font-semibold text-foreground">
-              Daily Tip
+              Daily tip
             </h2>
             <p className="text-base leading-relaxed text-foreground/90">
               Try this today: When you notice a barista doing something right, tell them why it worked.
@@ -44,14 +44,9 @@ const MidShiftTip = () => {
             </p>
           </div>
 
-          <div className="space-y-3">
-            <h2 className="text-xl font-semibold text-foreground">
-              Why this matters:
-            </h2>
-            <p className="text-base leading-relaxed text-foreground/90">
-              Clear positive feedback helps baristas repeat what works. It builds confidence and keeps the shift running smoothly.
-            </p>
-          </div>
+          <p className="text-base leading-relaxed text-foreground/90">
+            <span className="font-semibold">Why this matters:</span> Clear positive feedback helps baristas repeat what works. It builds confidence and keeps the shift running smoothly.
+          </p>
         </div>
 
         {/* CTA Button */}
