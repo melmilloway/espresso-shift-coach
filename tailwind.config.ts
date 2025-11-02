@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Quicksand', 'system-ui', 'sans-serif'],
-        heading: ['Sedgwick Ave Display', 'cursive'],
+        heading: ['Soft Marshmallow', 'sans-serif'],
         body: ['Quicksand', 'sans-serif'],
       },
       colors: {
