@@ -12,6 +12,7 @@ All colors MUST be HSL.
     --coffee-brown: 30 23% 25%;        /* Coffee Brown #4B3B2F */
     --latte-cream: 39 43% 98%;         /* Latte Cream #FAF8F5 */
     --whisker-gold: 43 100% 48%;       /* Whisker Gold #F6B400 */
+    --button-gold: 43 100% 48%;        /* Button Gold #f5b000 */
     --roast-beige: 33 49% 70%;         /* Roast Beige #DCB48C */
     --espresso-shadow: 33 41% 61%;     /* Espresso Shadow #C7A075 */
     --muted-beige: 33 20% 90%;         /* Light beige-gray #E8E3DC */
@@ -20,6 +21,8 @@ All colors MUST be HSL.
     --success-sage: 108 29% 61%;       /* Sage Green #89B87F */
     --info-blue: 201 42% 68%;          /* Soft Blue #87B7D1 */
     --error-red: 0 76% 64%;            /* Error Red #E85D5D */
+    --heading-brown: 25 34% 35%;       /* Heading Brown #805231 */
+    --paragraph-brown: 25 14% 42%;     /* Paragraph Brown #605145 */
     
     --background: var(--latte-cream);
     --foreground: var(--coffee-brown);
@@ -72,12 +75,25 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    @apply bg-background antialiased;
+    font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #605145;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-semibold text-foreground;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #805231;
+    font-size: 1.85rem;
+    line-height: 2rem;
+    font-weight: 400;
+  }
+
+  p {
+    color: #605145;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
   }
 
   button {

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import AppLayout from "@/components/AppLayout";
-import scenarioImage from "@/assets/scenario-morning-rush.jpg";
+import catCafe2 from "@/assets/cat-cafe-2.png";
 
 const choices = [
   {
@@ -35,10 +35,10 @@ const Scenario = () => {
       <div className="space-y-6 animate-slide-up">
         {/* Header */}
         <div className="space-y-2">
-          <h1 className="text-2xl font-bold text-foreground">
+          <h1 className="font-heading">
             Scenario: The morning rush
           </h1>
-          <p className="text-lg text-muted-foreground">
+          <p>
             A new barista is juggling drinks when a cat jumps on the counter.
           </p>
         </div>
@@ -46,14 +46,14 @@ const Scenario = () => {
         {/* Image */}
         <div className="rounded-xl overflow-hidden shadow-medium">
           <img 
-            src={scenarioImage} 
+            src={catCafe2} 
             alt="Barista with cat on counter during morning rush" 
             className="w-full h-52 object-cover"
           />
         </div>
 
         {/* Description */}
-        <p className="text-base leading-relaxed text-foreground/90">
+        <p>
           Customers laugh, but one looks uneasy. The barista freezes, unsure what to do. 
           What do you do next?
         </p>
@@ -82,7 +82,7 @@ const Scenario = () => {
           onClick={handleSubmit}
           disabled={selectedChoice === null}
           size="lg"
-          className="w-full bg-primary hover:bg-secondary text-primary-foreground font-semibold text-lg py-6 rounded-xl shadow-soft hover:shadow-medium transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full font-semibold text-lg py-6 rounded-xl shadow-soft hover:shadow-medium transition-all disabled:opacity-50 disabled:cursor-not-allowed"
         >
           Submit choice
         </Button>

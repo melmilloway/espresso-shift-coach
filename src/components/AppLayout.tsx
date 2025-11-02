@@ -32,7 +32,7 @@ const AppLayout = ({ children, showBack = false, showTimer = false, timerText = 
                   <ArrowLeft className="h-5 w-5 text-foreground" />
                 </button>
               )}
-              <img src={logo} alt="WhiskerBeans" className="h-8 w-8" />
+              <img src={logo} alt="WhiskerBeans" className="w-14 h-14" />
             </div>
             
             {showTimer && (

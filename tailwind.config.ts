@@ -14,7 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Quicksand', 'system-ui', 'sans-serif'],
+        heading: ['Sedgwick Ave Display', 'cursive'],
+        body: ['Quicksand', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -65,6 +67,9 @@ export default {
           beige: "hsl(var(--roast-beige))",
           shadow: "hsl(var(--espresso-shadow))",
         },
+        heading: "#805231",
+        paragraph: "#605145",
+        "button-gold": "#f5b000",
       },
       borderRadius: {
         lg: "var(--radius)",
