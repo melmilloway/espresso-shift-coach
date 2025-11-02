@@ -39,6 +39,7 @@ All colors MUST be HSL.
     --primary-foreground: var(--coffee-brown);
 
     --secondary: var(--espresso-shadow);
+    --secondary-hover: 42.19 98.21% 43.73%; /* Secondary Hover */
     --secondary-foreground: 0 0% 100%;
 
     --muted: var(--muted-beige);
