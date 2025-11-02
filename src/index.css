@@ -11,8 +11,9 @@ All colors MUST be HSL.
     /* WhiskerBeans Brand Colors */
     --coffee-brown: 30 23% 25%;        /* Coffee Brown #4B3B2F */
     --latte-cream: 39 43% 98%;         /* Latte Cream #FAF8F5 */
-    --whisker-gold: 43 100% 48%;       /* Whisker Gold #F6B400 */
-    --button-gold: 43 100% 48%;        /* Button Gold #f5b000 */
+    --whisker-gold: 44.75 94.4% 49.02%; /* Whisker Gold */
+    --whisker-gold-hover: 42.19 98.21% 43.73%; /* Whisker Gold Hover */
+    --button-gold: 44.75 94.4% 49.02%;  /* Button Gold */
     --roast-beige: 33 49% 70%;         /* Roast Beige #DCB48C */
     --espresso-shadow: 33 41% 61%;     /* Espresso Shadow #C7A075 */
     --muted-beige: 33 20% 90%;         /* Light beige-gray #E8E3DC */
@@ -34,6 +35,7 @@ All colors MUST be HSL.
     --popover-foreground: var(--coffee-brown);
 
     --primary: var(--whisker-gold);
+    --primary-hover: var(--whisker-gold-hover);
     --primary-foreground: var(--coffee-brown);
 
     --secondary: var(--espresso-shadow);
