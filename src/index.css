@@ -21,11 +21,11 @@ All colors MUST be HSL.
     --success-sage: 108 29% 61%;       /* Sage Green #89B87F */
     --info-blue: 201 42% 68%;          /* Soft Blue #87B7D1 */
     --error-red: 0 76% 64%;            /* Error Red #E85D5D */
-    --heading-brown: 25 34% 35%;       /* Heading Brown #805231 */
+    --heading-brown: 25 45% 35%;       /* Heading Brown #805231 */
     --paragraph-brown: 25 14% 42%;     /* Paragraph Brown #605145 */
     
     --background: var(--latte-cream);
-    --foreground: var(--coffee-brown);
+    --foreground: var(--heading-brown);
 
     --card: 0 0% 100%;
     --card-foreground: var(--coffee-brown);
@@ -99,6 +99,10 @@ All colors MUST be HSL.
 
   button {
     @apply transition-all duration-300 ease-out;
+  }
+
+  .font-medium {
+    font-weight: 600;
   }
 
   .animate-fade-in {
