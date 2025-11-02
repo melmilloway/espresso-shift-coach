@@ -14,7 +14,7 @@ const Launch = () => {
           <img 
             src={catCafe} 
             alt="WhiskerBeans Café scene with barista and cats" 
-            className="w-full h-48 object-cover"
+            className="w-full h-60 object-cover"
           />
         </div>
 

@@ -48,7 +48,7 @@ const Scenario = () => {
           <img 
             src={catCafe2} 
             alt="Barista with cat on counter during morning rush" 
-            className="w-full h-52 object-cover"
+            className="w-full h-60 object-cover"
           />
         </div>
 

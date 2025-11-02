@@ -42,7 +42,7 @@ All colors MUST be HSL.
     --muted: var(--muted-beige);
     --muted-foreground: var(--muted-brown);
 
-    --accent: var(--roast-beige);
+    --accent: 43.28 100% 47.84%;
     --accent-foreground: var(--coffee-brown);
 
     --destructive: var(--error-red);
@@ -83,7 +83,7 @@ All colors MUST be HSL.
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Soft Marshmallow', sans-serif;
     color: #805231;
     font-size: 1.85rem;
     line-height: 2rem;
@@ -94,6 +94,7 @@ All colors MUST be HSL.
     color: #605145;
     font-size: 1.125rem;
     line-height: 1.5rem;
+    font-weight: 600;
   }
 
   button {
