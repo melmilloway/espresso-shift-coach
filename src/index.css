@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --paragraph-brown: 25 14% 42%;     /* Paragraph Brown #605145 */
     
     --background: var(--latte-cream);
-    --foreground: var(--heading-brown);
+    --foreground: var(--paragraph-brown);
 
     --card: 0 0% 100%;
     --card-foreground: var(--coffee-brown);
@@ -43,7 +43,7 @@ All colors MUST be HSL.
     --secondary-foreground: 0 0% 100%;
 
     --muted: var(--muted-beige);
-    --muted-foreground: var(--muted-brown);
+    --muted-foreground: var(--paragraph-brown);
 
     --accent: 43.28 100% 47.84%;
     --accent-foreground: var(--coffee-brown);

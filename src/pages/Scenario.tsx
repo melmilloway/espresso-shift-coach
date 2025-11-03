@@ -70,7 +70,7 @@ const Scenario = () => {
                   : "bg-card hover:bg-muted border border-border shadow-soft"
               }`}
             >
-              <p className="text-sm leading-relaxed text-foreground">
+              <p className="text-base leading-normal font-medium text-foreground">
                 {choice.text}
               </p>
             </Card>
