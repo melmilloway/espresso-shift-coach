@@ -44,7 +44,7 @@ const Feedback = () => {
       <div className="space-y-6 animate-slide-up">
         {/* Header */}
         <div className="space-y-2">
-          <h1 className="text-2xl font-bold text-foreground">
+          <h1>
             How that played out
           </h1>
           <p className="text-lg font-medium text-muted-foreground">

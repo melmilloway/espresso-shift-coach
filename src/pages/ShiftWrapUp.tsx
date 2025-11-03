@@ -27,7 +27,7 @@ const ShiftWrapUp = () => {
 
         {/* Header */}
         <div className="text-center space-y-2">
-          <h1 className="text-2xl font-bold text-foreground">
+          <h1>
             Great work today!
           </h1>
           <p className="text-lg text-muted-foreground">

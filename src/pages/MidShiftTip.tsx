@@ -9,16 +9,13 @@ const MidShiftTip = () => {
     <AppLayout showBack currentStep={4} totalSteps={5}>
       <div className="space-y-6 animate-slide-up">
         {/* Header */}
-        <h1 className="text-2xl font-bold text-foreground">
+        <h1>
           Start of shift tip
         </h1>
 
         {/* Tip Content */}
         <div className="space-y-4">
           <div className="space-y-3">
-            <h2 className="text-xl font-semibold text-foreground">
-              Daily tip
-            </h2>
             <p className="text-base leading-relaxed text-foreground/90">
               <span className="font-semibold">Try this today:</span> When you notice a barista doing something right, tell them why it worked.
             </p>
