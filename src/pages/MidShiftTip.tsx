@@ -6,7 +6,7 @@ const MidShiftTip = () => {
   const navigate = useNavigate();
 
   return (
-    <AppLayout showBack currentStep={4} totalSteps={5}>
+    <AppLayout showBack showTimer timerText="5 min" currentStep={4} totalSteps={5}>
       <div className="space-y-6 animate-slide-up">
         {/* Header */}
         <h1>

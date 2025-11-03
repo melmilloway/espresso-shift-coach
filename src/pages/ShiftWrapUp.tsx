@@ -16,7 +16,7 @@ const ShiftWrapUp = () => {
   };
 
   return (
-    <AppLayout showBack={false} currentStep={5} totalSteps={5}>
+    <AppLayout showBack={false} showTimer timerText="5 min" currentStep={5} totalSteps={5}>
       <div className="space-y-6 animate-fade-in">
         {/* Success Icon */}
         <div className="flex justify-center">
@@ -67,7 +67,7 @@ const ShiftWrapUp = () => {
 
         {/* Next Shift Preview */}
         <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-xl p-6 space-y-3">
-          <h2 className="text-lg font-semibold text-foreground">
+          <h2 className="text-lg font-semibold" style={{ color: '#805231' }}>
             For your next shift:
           </h2>
           <p className="text-base leading-relaxed text-foreground/90">
