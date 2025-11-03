@@ -1,7 +1,7 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import AppLayout from "@/components/AppLayout";
-import feedbackImage from "@/assets/feedback-calm-leadership.jpg";
+import feedbackImage from "@/assets/cat-cafe-3.png";
 
 const Feedback = () => {
   const navigate = useNavigate();

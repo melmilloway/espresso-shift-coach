@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import AppLayout from "@/components/AppLayout";
-import tipImage from "@/assets/midshift-tip.jpg";
 
 const MidShiftTip = () => {
   const navigate = useNavigate();
@@ -13,15 +12,6 @@ const MidShiftTip = () => {
         <h1 className="text-2xl font-bold text-foreground">
           Start of shift tip
         </h1>
-
-        {/* Image */}
-        <div className="rounded-xl overflow-hidden shadow-medium">
-          <img 
-            src={tipImage} 
-            alt="Coffee break with coaching notes" 
-            className="w-full h-52 object-cover"
-          />
-        </div>
 
         {/* Tip Content */}
         <div className="space-y-4">
