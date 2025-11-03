@@ -118,7 +118,7 @@ All colors MUST be HSL.
   }
 
   .h-52 {
-    height: 15rem;
+    height: 15rem !important;
   }
 
   .animate-fade-in {

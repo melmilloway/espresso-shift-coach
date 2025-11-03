@@ -48,7 +48,7 @@ const Feedback = () => {
             How that played out
           </h1>
           <p style={{ color: '#605145', fontSize: '1.125rem', lineHeight: '1.5rem', fontWeight: 600 }}>
-            Your choice: {content.choice}
+            <span style={{ fontWeight: 1000 }}>Your choice:</span> {content.choice}
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const Feedback = () => {
           </p>
 
           <div className="bg-accent/30 border-l-4 border-primary rounded-lg p-4">
-            <p className="text-sm font-semibold text-foreground">
+            <p className="text-sm text-foreground" style={{ fontWeight: 1000 }}>
               Takeaway:
             </p>
             <p className="text-sm leading-relaxed text-foreground/90 mt-1">
