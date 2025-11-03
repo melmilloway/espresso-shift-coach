@@ -30,7 +30,7 @@ const ShiftWrapUp = () => {
           <h1>
             Great work today!
           </h1>
-          <p className="text-lg text-muted-foreground">
+          <p style={{ color: '#605145', fontSize: '1.125rem', lineHeight: '1.5rem', fontWeight: 600 }}>
             Here's what you practiced:
           </p>
         </div>
@@ -70,7 +70,7 @@ const ShiftWrapUp = () => {
           <h2 className="text-lg font-semibold" style={{ color: '#805231' }}>
             For your next shift:
           </h2>
-          <p className="text-base leading-relaxed text-foreground/90">
+          <p style={{ color: '#605145', fontSize: '1.125rem', lineHeight: '1.5rem', fontWeight: 600 }}>
             Look for one moment to give clear, specific positive feedback to a team member. Notice how it affects their confidence and the shift energy.
           </p>
         </div>

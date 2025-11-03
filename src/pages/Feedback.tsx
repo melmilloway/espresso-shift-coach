@@ -47,7 +47,7 @@ const Feedback = () => {
           <h1>
             How that played out
           </h1>
-          <p className="text-lg font-medium text-muted-foreground">
+          <p style={{ color: '#605145', fontSize: '1.125rem', lineHeight: '1.5rem', fontWeight: 600 }}>
             Your choice: {content.choice}
           </p>
         </div>
@@ -63,7 +63,7 @@ const Feedback = () => {
 
         {/* Feedback Content */}
         <div className="space-y-4">
-          <p className="text-base leading-relaxed text-foreground/90">
+          <p style={{ color: '#605145', fontSize: '1.125rem', lineHeight: '1.5rem', fontWeight: 600 }}>
             {content.feedback}
           </p>
 

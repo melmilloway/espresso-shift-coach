@@ -117,6 +117,10 @@ All colors MUST be HSL.
     font-weight: 600;
   }
 
+  .h-52 {
+    height: 15rem;
+  }
+
   .animate-fade-in {
     animation: fadeIn 0.4s ease-out;
   }
