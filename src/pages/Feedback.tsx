@@ -14,7 +14,7 @@ const Feedback = () => {
         return {
           choice: "Step in calmly and coach in the moment.",
           feedback: "Redirecting in the moment helps everyone stay calm. Customers see leadership in action, and the barista learns by example. Waiting too long can make small moments snowball.",
-          takeaway: "Calm correction in real time teaches confidence and protects the vibe.",
+          takeaway: "Calm coaching in the moment builds confidence and keeps the café feeling welcoming for everyone.",
         };
       case 2:
         return {
@@ -71,7 +71,7 @@ const Feedback = () => {
             <p className="text-sm text-foreground" style={{ fontWeight: 1000 }}>
               Takeaway:
             </p>
-            <p className="text-sm leading-relaxed text-foreground/90 mt-1">
+            <p className="text-sm leading-relaxed text-foreground/90 mt-1" style={{ fontWeight: 600 }}>
               {content.takeaway}
             </p>
           </div>

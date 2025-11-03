@@ -22,10 +22,10 @@ const MidShiftTip = () => {
           </div>
 
           <div className="bg-muted/50 rounded-lg p-4 border-l-4 border-secondary">
-            <p className="text-sm font-medium text-muted-foreground mb-2">
+            <p className="text-sm text-muted-foreground mb-2" style={{ fontWeight: 1000 }}>
               Example:
             </p>
-            <p className="text-sm italic leading-relaxed text-foreground/80">
+            <p className="text-sm italic leading-relaxed text-foreground/80" style={{ fontWeight: 600 }}>
               "I liked how you handled that customer calmly when the cat jumped. 
               Your tone kept everyone relaxed."
             </p>
