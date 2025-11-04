@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --paragraph-brown: 25 14% 42%;     /* Paragraph Brown #605145 */
     
     --background: var(--latte-cream);
-    --foreground: var(--paragraph-brown);
+    --foreground: 25 14% 42%; /* #605145 */
 
     --card: 0 0% 100%;
     --card-foreground: var(--coffee-brown);
@@ -122,7 +122,7 @@ All colors MUST be HSL.
   }
 
   .leading-relaxed {
-    line-height: 1.425;
+    line-height: 1.425 !important;
   }
 
   .animate-fade-in {
@@ -155,6 +155,9 @@ All colors MUST be HSL.
 
   /* Toast Styling */
   [data-sonner-toast] {
-    background-color: hsl(var(--toast-bg)) !important;
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)) !important;
+    --tw-gradient-from: hsl(var(--toast-bg)) var(--tw-gradient-from-position);
+    --tw-gradient-to: hsl(var(--muted-beige)) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   }
 }

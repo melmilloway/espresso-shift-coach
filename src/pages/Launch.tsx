@@ -24,7 +24,7 @@ const Launch = () => {
             <h1 className="font-heading" style={{ fontSize: '2.35rem', lineHeight: '2.25rem' }}>
               Manager Espresso Shot
             </h1>
-            <p style={{ fontSize: '1.3rem', lineHeight: '1.5rem', fontWeight: 600 }}>
+            <p style={{ fontSize: '1.5rem', lineHeight: '1.75rem', fontWeight: 800 }}>
               Ready to sharpen your coaching reflexes?
             </p>
           </div>
