@@ -12,11 +12,11 @@ const choices = [
   },
   {
     id: 2,
-    text: "Pause the guest interaction to steady the moment, then coach the barista privately right after the situation so they can absorb it without an audience.",
+    text: "Pause the guest interaction to steady the moment, then coach the barista privately right after the situation.",
   },
   {
     id: 3,
-    text: "Take over the task yourself to keep service moving, then plan to explain the standard later when the floor is quiet and the barista can focus.",
+    text: "Take over the task yourself to keep service moving, then plan to explain the standard later.",
   },
 ];
 

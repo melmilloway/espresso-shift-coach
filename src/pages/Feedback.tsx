@@ -67,7 +67,7 @@ const Feedback = () => {
             {content.feedback}
           </p>
 
-          <div className="bg-accent/30 border-l-4 border-primary rounded-lg p-4">
+          <div className="bg-muted/50 border-l-4 border-primary rounded-lg p-4">
             <p className="text-sm text-foreground" style={{ fontWeight: 1000 }}>
               Takeaway:
             </p>
