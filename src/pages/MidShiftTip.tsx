@@ -14,7 +14,7 @@ const MidShiftTip = () => {
         </h1>
 
         {/* Tip Content */}
-        <div className="space-y-4">
+        <div className="space-y-4" style={{ marginTop: '.5rem' }}>
           <div className="space-y-3">
             <p style={{ color: '#605145', fontSize: '1.125rem', lineHeight: '1.5rem', fontWeight: 600 }}>
               <span style={{ fontWeight: 1000 }}>Try this today:</span> When you notice a barista doing something right, tell them why it worked.
