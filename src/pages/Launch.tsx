@@ -19,12 +19,12 @@ const Launch = () => {
         </div>
 
         {/* Content */}
-        <div className="space-y-4">
+        <div className="space-y-4" style={{ marginTop: '.5rem' }}>
           <div className="space-y-2">
-            <h1 className="font-heading" style={{ fontSize: '2.35rem', lineHeight: '2.25rem' }}>
+            <h1 className="font-heading" style={{ fontSize: '2.15rem', lineHeight: '2.25rem' }}>
               Manager Espresso Shot
             </h1>
-            <p style={{ fontSize: '1.5rem', lineHeight: '1.75rem', fontWeight: 800 }}>
+            <p style={{ fontSize: '1.35rem', lineHeight: '1.5rem', fontWeight: 800 }}>
               Ready to sharpen your coaching reflexes?
             </p>
           </div>
