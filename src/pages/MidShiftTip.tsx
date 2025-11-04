@@ -17,7 +17,7 @@ const MidShiftTip = () => {
         <div className="space-y-4">
           <div className="space-y-3">
             <p style={{ color: '#605145', fontSize: '1.125rem', lineHeight: '1.5rem', fontWeight: 600 }}>
-              <span className="font-semibold">Try this today:</span> When you notice a barista doing something right, tell them why it worked.
+              <span style={{ fontWeight: 1000 }}>Try this today:</span> When you notice a barista doing something right, tell them why it worked.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ const MidShiftTip = () => {
           </div>
 
           <p style={{ color: '#605145', fontSize: '1.125rem', lineHeight: '1.5rem', fontWeight: 600 }}>
-            <span className="font-semibold">Why this matters:</span> Clear positive feedback helps baristas repeat what works. It builds confidence and keeps the shift running smoothly.
+            <span style={{ fontWeight: 1000 }}>Why this matters:</span> Clear positive feedback helps baristas repeat what works. It builds confidence and keeps the shift running smoothly.
           </p>
         </div>
 

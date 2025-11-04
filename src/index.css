@@ -121,6 +121,10 @@ All colors MUST be HSL.
     height: 15rem !important;
   }
 
+  .leading-relaxed {
+    line-height: 1.425;
+  }
+
   .animate-fade-in {
     animation: fadeIn 0.4s ease-out;
   }
