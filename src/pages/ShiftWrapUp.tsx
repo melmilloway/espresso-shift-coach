@@ -16,7 +16,7 @@ const ShiftWrapUp = () => {
   };
 
   return (
-    <AppLayout showBack={false} showTimer timerText="5 min" currentStep={5} totalSteps={5}>
+    <AppLayout showBack={true} showTimer timerText="5 min" currentStep={5} totalSteps={5}>
       <div className="space-y-6 animate-fade-in">
         {/* Success Icon */}
         <div className="flex justify-center">
