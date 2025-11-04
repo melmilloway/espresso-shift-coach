@@ -156,8 +156,8 @@ All colors MUST be HSL.
   /* Toast Styling */
   [data-sonner-toast] {
     background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)) !important;
-    --tw-gradient-from: hsl(var(--toast-bg)) var(--tw-gradient-from-position);
-    --tw-gradient-to: hsl(var(--muted-beige)) var(--tw-gradient-to-position);
+    --tw-gradient-from: hsl(var(--primary) / 0.1) var(--tw-gradient-from-position);
+    --tw-gradient-to: hsl(var(--background)) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   }
 }
