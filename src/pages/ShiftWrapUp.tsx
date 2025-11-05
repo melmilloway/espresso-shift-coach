@@ -38,7 +38,7 @@ const ShiftWrapUp = () => {
         <div className="space-y-3">
           <div className="bg-muted/50 rounded-lg p-4 border-l-4 border-primary">
             <p className="text-sm text-foreground mb-1" style={{ fontWeight: 1000 }}>
-              Navigated a real scenario
+              Navigated a real scenario:
             </p>
             <p className="text-sm text-foreground/80">
               You practiced making decisions under pressure
@@ -47,7 +47,7 @@ const ShiftWrapUp = () => {
 
           <div className="bg-muted/50 rounded-lg p-4 border-l-4 border-secondary">
             <p className="text-sm text-foreground mb-1" style={{ fontWeight: 1000 }}>
-              Learned leadership timing
+              Learned leadership timing:
             </p>
             <p className="text-sm text-foreground/80">
               You explored when and how to coach effectively
@@ -56,7 +56,7 @@ const ShiftWrapUp = () => {
 
           <div className="bg-muted/50 rounded-lg p-4 border-l-4 border-accent">
             <p className="text-sm text-foreground mb-1" style={{ fontWeight: 1000 }}>
-              Got a coaching tip
+              Got a coaching tip:
             </p>
             <p className="text-sm text-foreground/80">
               Try giving specific positive feedback today
