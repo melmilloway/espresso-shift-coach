@@ -37,7 +37,7 @@ const ShiftWrapUp = () => {
         {/* Summary Cards */}
         <div className="space-y-3">
           <div className="bg-muted/50 rounded-lg p-4 border-l-4 border-primary">
-            <p className="text-sm font-semibold text-foreground mb-1">
+            <p className="text-sm text-foreground mb-1" style={{ fontWeight: 1000 }}>
               Navigated a real scenario
             </p>
             <p className="text-sm text-foreground/80">
@@ -46,7 +46,7 @@ const ShiftWrapUp = () => {
           </div>
 
           <div className="bg-muted/50 rounded-lg p-4 border-l-4 border-secondary">
-            <p className="text-sm font-semibold text-foreground mb-1">
+            <p className="text-sm text-foreground mb-1" style={{ fontWeight: 1000 }}>
               Learned leadership timing
             </p>
             <p className="text-sm text-foreground/80">
@@ -55,7 +55,7 @@ const ShiftWrapUp = () => {
           </div>
 
           <div className="bg-muted/50 rounded-lg p-4 border-l-4 border-accent">
-            <p className="text-sm font-semibold text-foreground mb-1">
+            <p className="text-sm text-foreground mb-1" style={{ fontWeight: 1000 }}>
               Got a coaching tip
             </p>
             <p className="text-sm text-foreground/80">
