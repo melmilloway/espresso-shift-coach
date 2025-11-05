@@ -8,8 +8,7 @@ const ShiftWrapUp = () => {
   const navigate = useNavigate();
 
   const handleBackToHome = () => {
-    toast.success("You've got this!", {
-      description: "See you next shift",
+    toast.success("See you next shift!", {
       duration: 3000,
     });
     setTimeout(() => navigate("/"), 500);
